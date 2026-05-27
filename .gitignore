@@ -1,0 +1,39 @@
+# Python build/cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+build/
+dist/
+
+# Virtualenvs
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS cruft
+.DS_Store
+._*
+__MACOSX/
+Thumbs.db
+
+# Tooling
+.mypy_cache/
+.ruff_cache/
+.tox/
+
+# Local
+*.log
+*.swp
+*.zip
+
+# Image build artifacts — local only, never push to github mirror
+Dockerfile.build
